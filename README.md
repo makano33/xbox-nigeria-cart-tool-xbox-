@@ -2,6 +2,16 @@
 
 🌐 **Language / 语言**: [English](README_EN.md) | [中文简体](README.md)
 
+## 📖 文档导航
+
+| 文档 | 描述 | 链接 |
+|------|------|------|
+| 📋 使用说明 | 详细的安装配置和使用指南 | [USAGE.md](docs/USAGE.md) |
+| 🔧 技术文档 | 工具原理、脚本分析和架构说明 | [TECHNICAL.md](docs/TECHNICAL.md) |
+| 🔒 安全说明 | 安全考虑、风险评估和合规声明 | [SECURITY.md](docs/SECURITY.md) |
+| ⚙️ Surge配置 | Surge代理工具配置文件 | [surge.conf](config/surge.conf) |
+| ⚙️ Shadowrocket配置 | Shadowrocket代理工具配置文件 | [shadowrocket.conf](config/shadowrocket.conf) |
+
 ## 项目简介
 
 这是一个用于解决Xbox尼日利亚市场游戏添加到购物车问题的工具集。由于Xbox尼日利亚市场的技术限制，某些游戏无法正常添加到购物车并进行购买，本工具通过网络请求修改来解决这一问题。

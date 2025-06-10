@@ -2,6 +2,16 @@
 
 🌐 **Language / 语言**: [English](README_EN.md) | [中文简体](README.md)
 
+## 📖 Documentation Navigation
+
+| Document | Description | Link |
+|----------|-------------|------|
+| 📋 Usage Guide | Detailed installation, configuration and usage instructions | [USAGE_EN.md](docs/USAGE_EN.md) |
+| 🔧 Technical Docs | Tool principles, script analysis and architecture | [TECHNICAL_EN.md](docs/TECHNICAL_EN.md) |
+| 🔒 Security Notice | Security considerations, risk assessment and compliance | [SECURITY_EN.md](docs/SECURITY_EN.md) |
+| ⚙️ Surge Config | Surge proxy tool configuration file | [surge.conf](config/surge.conf) |
+| ⚙️ Shadowrocket Config | Shadowrocket proxy tool configuration file | [shadowrocket.conf](config/shadowrocket.conf) |
+
 ## Project Introduction
 
 This is a tool set designed to solve the issue of adding Xbox Nigeria market games to the shopping cart. Due to technical limitations in the Xbox Nigeria market, certain games cannot be properly added to the cart and purchased. This tool resolves this issue through network request modifications.
