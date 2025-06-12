@@ -2,7 +2,7 @@
 
 🌐 **Language / 语言**: [English](README_EN.md) | [中文简体](README.md)
 ##surge/Shadowrocket脚本
-`[Body Rewrite]
+'''[Body Rewrite]
 http-request https://www.microsoft.com/store/purchase/purchaseui/(cart|checkout) market=[^&amp;]* market=NG
 
 [Script]
@@ -11,7 +11,7 @@ getcartid = type=http-response,pattern=^https://cart.production.store-web.dynami
 buy = type=http-request,pattern=^https://cart.production.store-web.dynamics.com/v\d+\.\d+/Cart/RequestParentalApproval,requires-body=1,max-size=0,binary-body-mode=0,timeout=90,script-path=https://raw.githubusercontent.com/theslugger/xboxngn/refs/heads/main/buy.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% *.microsoft.com,*.dynamics.com`
+hostname = %APPEND% *.microsoft.com,*.dynamics.com'''
 
 ## 📖 文档导航
 
