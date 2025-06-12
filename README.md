@@ -1,7 +1,7 @@
 # Xbox Nigeria Market Cart Tool
 
 🌐 **Language / 语言**: [English](README_EN.md) | [中文简体](README.md)
-## surge/Shadowrocket脚本
+## Surge/Shadowrocket脚本
 ```
 [Body Rewrite]
 http-request https://www.microsoft.com/store/purchase/purchaseui/(cart|checkout) market=[^&amp;]* market=NG
