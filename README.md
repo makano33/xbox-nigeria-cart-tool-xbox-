@@ -4,6 +4,8 @@
 ## 非盈利声明
 此技术问题在于解决尼日利亚当地用户的购买xbox游戏或应用无法跳转至正常页面问题，MSRC案例已完结，该技术问题不涉及任何奖金计划。
 ## Surge/Shadowrocket脚本
+（shadowrocket无法看到已添加的购物车，需要到
+https://www.microsoft.com/en-ng/store/cart中登录查看）
 ```
 [Body Rewrite]
 http-request https://www.microsoft.com/store/purchase/purchaseui/(cart|checkout) market=[^&amp;]* market=NG
