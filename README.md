@@ -1,6 +1,8 @@
 # Xbox Nigeria Market Cart Tool
 
 🌐 **Language / 语言**: [English](README_EN.md) | [中文简体](README.md)
+## 非盈利声明
+此技术问题在于解决尼日利亚当地用户的购买xbox游戏或应用无法跳转至正常页面问题，MSRC案例已完结，该技术问题不涉及任何奖金计划。
 ## Surge/Shadowrocket脚本
 ```
 [Body Rewrite]
